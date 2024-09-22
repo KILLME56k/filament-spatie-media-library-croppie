@@ -4,8 +4,9 @@ namespace JosefBehr\FilamentSpatieMediaLibraryCroppie;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class FilamentSpatieMediaLibraryCroppieServiceProvider extends PluginServiceProvider
+class FilamentSpatieMediaLibraryCroppieServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-spatie-media-library-croppie';
 
